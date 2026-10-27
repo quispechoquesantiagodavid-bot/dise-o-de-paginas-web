@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santiago Quispe - Desarrollo Web Portal C-137</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fuente estilo sci-fi/robot -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Iconos de FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Fondo con patrones de robots y circuito -->
+  <div class="robot-bg-overlay"></div>
+
+  <!-- ENCABEZADO Y LOGOTIPO -->
+  <header class="header">
+    <div class="logo-container">
+      <div class="portal-ring"></div>
+      <i class="fa-solid fa-robot logo-icon"></i>
+      <div class="logo-text">
+        <h1>CONECTANDO <span>NEGOCIOS</span></h1>
+        <p class="tagline">Dimension C-137 Web Labs</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#portafolio"><i class="fa-solid fa-laptop-code"></i> Proyectos</a>
+      <a href="#precios"><i class="fa-solid fa-tag"></i> Precios</a>
+      <a href="#nosotros"><i class="fa-solid fa-rocket"></i> Emprendimiento</a>
+      <a href="#contacto"><i class="fa-solid fa-location-dot"></i> Contacto</a>
+    </nav>
+  </header>
+
+  <!-- SECCIÓN HERO (PORTADA) -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>DESARROLLO WEB :)</h2>
+      <p>Impulsa tu negocio con sitios web futuristas, rápidos y optimizados para destacar en todo el multiverso.</p>
+      <a href="https://wa.me/59177561754" target="_blank" class="btn-main">
+        <i class="fa-brands fa-whatsapp"></i> Cotizar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 1: GALERÍA DE PÁGINAS ELABORADAS -->
+  <section id="portafolio" class="section">
+    <h2 class="section-title"><i class="fa-solid fa-cubes"></i> Mis Páginas Creadas</h2>
+    <p class="section-subtitle">Explora los proyectos web que he elaborado hasta la fecha</p>
+
+    <div class="portfolio-grid">
+      <!-- Proyecto 1 -->
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Proyecto Sitio Comercial">
+          <span class="badge">E-Commerce</span>
+        </div>
+        <div class="card-body">
+          <h3>Tienda Virtual Cyber-Store</h3>
+          <p>Catálogo interactivo, carrito de compras y diseño responsive adaptable a móviles.</p>
+        </div>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Proyecto Landing Page">
+          <span class="badge">Landing Page</span>
+        </div>
+        <div class="card-body">
+          <h3>Portal Corporativo Robot-X</h3>
+          <p>Página promocional para empresas, optimizada para cargar a velocidad mecha.</p>
+        </div>
+      </div>
+
+      <!-- Proyecto 3 -->
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Proyecto Portafolio">
+          <span class="badge">Portafolio</span>
+        </div>
+        <div class="card-body">
+          <h3>Sitio Personal Estilo Rick & Morty</h3>
+          <p>Plataforma personalizada con animaciones, modo oscuro y diseño llamativo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2: PRECIOS -->
+  <section id="precios" class="section bg-darker">
+    <h2 class="section-title"><i class="fa-solid fa-coins"></i> Planes y Precios</h2>
+    <p class="section-subtitle">Elige la solución que mejor se adapte a las necesidades de tu negocio</p>
+
+    <div class="pricing-grid">
+      <!-- Plan Básico -->
+      <div class="price-card">
+        <div class="price-header">
+          <h3>Página Básica</h3>
+          <div class="price">Bs. 350 <span>/ pago único</span></div>
+        </div>
+        <ul class="price-features">
+          <li><i class="fa-solid fa-check"></i> Diseño 1 Página (Landing Page)</li>
+          <li><i class="fa-solid fa-check"></i> Adaptable a Celulares</li>
+          <li><i class="fa-solid fa-check"></i> Botón directo a WhatsApp</li>
+          <li><i class="fa-solid fa-check"></i> Ubicación en Google Maps</li>
+        </ul>
+        <a href="https://wa.me/59177561754?text=Hola,%20me%20interesa%20la%20P%C3%A1gina%20B%C3%A1sica" target="_blank" class="btn-card">Solicitar Plan</a>
+      </div>
+
+      <!-- Plan Profesional (Destacado) -->
+      <div class="price-card featured">
+        <div class="featured-tag">Recomendado</div>
+        <div class="price-header">
+          <h3>Página Profesional</h3>
+          <div class="price">Bs. 700 <span>/ pago único</span></div>
+        </div>
+        <ul class="price-features">
+          <li><i class="fa-solid fa-check"></i> Hasta 5 Subpáginas completas</li>
+          <li><i class="fa-solid fa-check"></i> Galería de Fotos/Servicios</li>
+          <li><i class="fa-solid fa-check"></i> Formulario de contacto activo</li>
+          <li><i class="fa-solid fa-check"></i> Optimización de carga rápida</li>
+          <li><i class="fa-solid fa-check"></i> Redes Sociales integradas</li>
+        </ul>
+        <a href="https://wa.me/59177561754?text=Hola,%20me%20interesa%20la%20P%C3%A1gina%20Profesional" target="_blank" class="btn-card btn-red">Solicitar Plan</a>
+      </div>
+
+      <!-- Plan Avanzado -->
+      <div class="price-card">
+        <div class="price-header">
+          <h3>Catálogo / Tienda</h3>
+          <div class="price">Bs. 1200 <span>/ pago único</span></div>
+        </div>
+        <ul class="price-features">
+          <li><i class="fa-solid fa-check"></i> Catálogo ilimitado de productos</li>
+          <li><i class="fa-solid fa-check"></i> Carrito de Compras</li>
+          <li><i class="fa-solid fa-check"></i> Panel para administrar productos</li>
+          <li><i class="fa-solid fa-check"></i> Asesoría y capacitación</li>
+        </ul>
+        <a href="https://wa.me/59177561754?text=Hola,%20me%20interesa%20el%20Plan%20Cat%C3%A1logo" target="_blank" class="btn-card">Solicitar Plan</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 3: MI EMPRENDIMIENTO -->
+  <section id="nosotros" class="section">
+    <div class="about-container">
+      <div class="about-text">
+        <h2 class="section-title left"><i class="fa-solid fa-microchip"></i> DE QUE TRATA ESTA PAGINA WEB</h2>
+        <p>Yo desarrollo paginas web para emprendedores donde ellos puedan tener la facilidad y el aumneto de ventas y facilitar ah ver asus clientes sus productos</p>
+        <p>TU querido cliente contactate conmigo y ten la facilidad deque tu cliente tenga la facilidad de comprar y ver tus productos con la pagina web elaborada,contactate conmigo en los siguientes datos contigo                                                                                  davincini:)</p>
+      </div>
+      <div class="about-icon-box">
+        <i class="fa-solid fa-robot robot-big-icon"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 4: DATOS DE CONTACTO Y UBICACIÓN -->
+  <section id="contacto" class="section bg-darker">
+    <h2 class="section-title"><i class="fa-solid fa-headset"></i> Informacion de Contacto</h2>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fa-solid fa-user"></i>
+          <div>
+            <h4>Desarrollador Web</h4>
+            <p>Santiago David Quispe Choque</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h4>Celular / WhatsApp</h4>
+            <p>+591 77561754</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="fa-solid fa-city"></i>
+          <div>
+            <h4>Ciudad / Dirección</h4>
+            <p>Viacha, Bolivia</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="fa-solid fa-location-crosshairs"></i>
+          <div>
+            <h4>Ubicación Exacta</h4>
+            <p>Plaza Ballivián, al lado de la Alcaldía de Viacha</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-action">
+        <h3>¿Listo para tener tu propia página web?</h3>
+        <p>Escríbeme directamente para asesorarte de forma personalizada.</p>
+        <a href="https://wa.me/59177561754" target="_blank" class="btn-whatsapp-big">
+          <i class="fa-brands fa-whatsapp"></i> Hablar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <p>&copy; 2026 Santiago David Quispe Choque - Todos los derechos reservados.</p>
+    <p class="footer-sub">Desarrollado con temática Robot / Dimension C-137</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
